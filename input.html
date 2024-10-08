@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<center>
+<h1>Registration Form</h1>
+<form>
+<div id="errorname"></div>
+<input type="text" placeholder="Enter name" id="name" onblur="s()"><br><br>
+<div id="erroremail"></div>
+<input type="text" placeholder="Enter email" id="email" onblur="t()"><br><br>
+<div id="errormobile"></div>
+<input type="tel" placeholder="Enter mobile number" id="mobile" onblur="u()"><br><br>
+<div id="errorpassword"></div>
+<input type="password" placeholder="Enter password" id="password" onblur="v()"><br><br>
+<div id="errorcpassword"></div>
+<input type="cpassword" placeholder="Enter cpassword" id="cpassword" onblur="w()"><br><br>
+<button onclick="return run();">Submit</button>
+</form>
+</center>
+<script src="./input.js"></script>
+</body>
+</html>
